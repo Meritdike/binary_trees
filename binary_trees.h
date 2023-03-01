@@ -90,9 +90,6 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
-bst_t *swap(bst_t *a, bst_t *b);
-
-bst_t *swap(bst_t *a, bst_t *b);
 void binary_tree_print(const binary_tree_t *);
 
 #endif /* BINARY_TREES_H */
